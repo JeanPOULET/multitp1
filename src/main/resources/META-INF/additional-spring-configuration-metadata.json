@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "simpleformat.nb",
+      "type": "java.lang.Integer",
+      "description": "Description for simpleformat.nb."
+    }
+  ] }

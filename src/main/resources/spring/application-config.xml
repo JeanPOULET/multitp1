@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <!--
+        <bean id="simpleFormatMessage"
+              class="com.pam.tp1.format.SimpleFormatMessage">
+
+        </bean>
+
+       <bean id="splitFormatMessage"
+
+             class="com.pam.tp1.format.SplitFormatMessage">
+           <constructor-arg name="nb" value="10"/>
+       </bean>
+
+
+
+               <bean id="mailService"
+                     class="com.pam.tp1.alert.MailSender"/>
+
+               <bean id="simpleFormatMail"
+                     class="com.pam.tp1.format.SimpleMailFormat"/>
+
+               <bean id="mailController"
+                     class="com.pam.tp1.controller.MailController"/>
+
+
+
+               <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+                   <property name="host" value="smtp.gmail.com"/>
+                   <property name="port" value="587"/>
+                   <property name="username" value="pam.tp.spring@gmail.com"/>
+                   <property name="password" value="uqocphpyulznachq"/>
+                   <property name="javaMailProperties">
+                       <props>
+                           <prop key="mail.transport.protocol">smtp</prop>
+                           <prop key="mail.smtp.auth">true</prop>
+                           <prop key="mail.smtp.starttls.enable">true</prop>
+                       </props>
+                   </property>
+               </bean>
+               </!-->
+
+</beans>
